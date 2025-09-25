@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+
+
+body{
+    background-color: rgb(231,229,193);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(to top,rgb(026,092,055),#3cd681);
+    padding: 10px;
+        box-shadow: 0px 8px 20px 2px rgba(0, 0, 0, 0.404);
+    
+}
+header > h1{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2.50em;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    
+}
+header > h2{
+    color: white;
+    font-size:1em;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+
+nav > a{
+    color:#3cd681;
+    margin-right: 2%;
+    text-decoration: none;
+    padding: 5px;
+    transition-duration: 0.6s;
+}
+nav>a:hover{
+    background-color: #3cd681;
+    color:rgb(026,092,055);
+    border-radius: 15px;
+    
+
+}
+main{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.281);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+main>p{
+
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-indent: 20px;
+    letter-spacing: 2px;
+
+}
+
+h1{
+    font-family: idroid;
+    color: rgb(026,092,055);
+    font-weight: lighter;
+    
+
+}
+main> h2{
+    font-family: idroid;
+    color: rgb(026,092,055);
+    font-weight: lighter;
+    background-image: linear-gradient(to right,#3cd681,white);
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#miniatura{
+    padding: 20px;
+    background-color: rgb(026,092,055);
+   
+}
+
+#miniatura > iframe{
+    
+    
+    width: 100%;
+   
+    
+}
+
+#tabela{
+    background-color: #6be0a0;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.342);
+}
+#tabela > #tabelatitle{
+    background-color: rgb(026,092,055);
+    border: 20px;
+    border-color: rgb(026,092,055) ;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+#tabela > p{
+    padding: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-indent: 20px;
+    
+}
+
+#tabela > ul{
+    columns: 2;
+}
+
+footer{
+    background-color: rgb(026,092,055);
+    margin-top:10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    
+}footer > strong{
+    font-weight: bolder;
+}
+main>p>a{
+    background-color: #6be0a0;
+}
