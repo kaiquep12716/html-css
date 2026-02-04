@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="emailid">
+                    email
+                </label>
+                <input type="email" name="email" id="emailid">
+            </p>
+            <!--estudar mais sobre RegEx -->
+            <p>
+                <label for="telefoneid">telefone</label>
+                <input type="tel" name="telefone" id="telefoneid" pattern="^[0-9]{4}-[0-9]{4}$">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+</html>

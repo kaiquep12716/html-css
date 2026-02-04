@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+#botoes{
+    position: absolute;/*absolute pra poder centralizar em relação ao container*/
+    left:100%;/*posicionamento da caixa*/
+    top:0%;
+    transform: translate(-100%,-0%); /*mexe a posição apesar de ja ter mexido no absolute*/
+    color: white;
+    padding-right: 30px;
+}
+#celular{
+    background-image: url(pacote-d013/imagens/frame-iphone.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;/*absolute pra poder centralizar em relação ao container*/
+    left:50%;/*posicionamento da caixa*/
+    top:50%;
+    transform: translate(-50%,-50%); /*mexe a posição apesar de ja ter mexido no absolute*/
+    max-width: 401px;
+    max-height: 570px;
+    
+    
+    
+}
+#celular>iframe{
+    position: absolute;
+    left: 13.5%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+    width: 245px;
+    height: 426px;
+}
+ul>li>a>img{
+    width: 3rem;
+    margin: 20px 5px 5px 5px;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+ul>li>a>img:hover{
+    border:2px solid white;
+    margin-left: -15px;
+   
+}
+html::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+    
+}
