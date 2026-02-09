@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width:560px){
+    
+    body{
+        
+        background: linear-gradient(90deg,rgba(95, 42, 155, 1) 0%, rgba(87, 89, 199, 1) 49%, rgba(83, 237, 224, 1) 100%);
+
+        min-height: 100vh;
+
+    }
+
+    div#imagem , div#formulario{
+
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+
+    }
+    
+    div#login{
+        height: 100vh;
+    
+    }
+
+
+}

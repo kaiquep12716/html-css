@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px){
+
+
+
+body{
+    background: linear-gradient(90deg,rgba(95, 42, 155, 1) 0%, rgba(87, 89, 199, 1) 49%, rgba(83, 237, 224, 1) 100%);
+
+    min-height: 100vh;
+}
+
+
+
+div#imagem, div#formulario{
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 40vw;
+    height: 60vw;
+    max-height: 370px;
+
+}
+
+div#imagem{
+    
+    border-radius: 0px 10px 10px 0px;
+    transform: translate(0%,-50%);
+}
+
+div#formulario
+{
+    border-radius: 10px 0px 0px 10px;
+    transform: translate(-100%,-50%);
+}
+
+}
