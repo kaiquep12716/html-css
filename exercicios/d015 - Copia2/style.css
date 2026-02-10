@@ -13,6 +13,8 @@ body{
 }
 
 
+
+
 div#imagem, div#formulario{
     display: inline-block;
     vertical-align: top;
@@ -21,6 +23,7 @@ div#imagem, div#formulario{
     top: 40%;
     width: 50vw;
     max-height: 340px;
+    transition: width .2s, height .2s;
     
 
 }
