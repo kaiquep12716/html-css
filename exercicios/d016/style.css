@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(9,1fr);
+    grid-template-columns: repeat(4,1fr);
+
+    
+    
+}
+
+.topo{
+    background-color: lightblue;
+    grid-area: 1 / 1 / 3 / -1;
+    text-align: center;
+}
+.menu{
+    background-color: lightcoral;
+    grid-area: 3 / 1 / 4 / -1;
+    text-align: center;
+}
+.principal{
+    background-color: lightgoldenrodyellow;
+    grid-area: 4 / 1 / 9 / 4;
+    text-align: center;
+}
+.secundario{
+    background-color: lightgreen;
+    grid-area: 4 / 4 / 9 / -1;
+    text-align: center;
+}
+.rodape{
+    background-color: lightskyblue;
+    grid-area: 9 / 1 / -1 / -1;
+    text-align: center;
+}
